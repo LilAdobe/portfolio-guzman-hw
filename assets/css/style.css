@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ecc979;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #7c2a2a;
+    color: #fff;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+header h1 {
+    display:inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 8px;
+    margin-right: 40px;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: flex;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: whitesmoke;
+    color:tomato;
+}
+
+.avatar {
+    float: left;
+    margin-right: 25px;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+section {
+    margin-bottom: 32px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(243, 231, 212);
+    color: black;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+section img {
+    max-height: 200px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+article {
+    margin-bottom: 32px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(243, 231, 212);
+    color: black;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+article h2 {
+    font-size: 40px;
+}
+
+article img {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+article p {
+position: absolute;
+margin-top: 60px;
+margin-left: 260px;
+display: flex;
+flex-wrap:wrap;
+}
+
+.mexample {
+    margin-left: 25px;
+    height: 800px;
+}
+
+.hero {
+    height: 200px;
+    max-width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/background_image.png");
+    background-position:center;
+    flex-wrap: wrap;
+}
+
+.footer {
+    padding: 15px;
+    clear:both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color:#7c2a2a;
+    color: white
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.footer h2 {
+    font-size: 25px;
+}
+
+@media screen and (max-width:576px) {
+
+}
