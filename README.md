@@ -1,11 +1,9 @@
 # portfolio-guzman-hw
 
-## Description
-1. Wrote my Name, added an avatar "tree", about me place holder , link to sections about me, my work and how to contact me.
-2. NAV bar scrolls to the location desired.
-The sections will have titled images of my applications or placeholders leading to other sites,
-3. clicking on images of applications will take to depoyed application and placeholder websites.
-4. Still need work on flexbox and image increase when selected.
+## Updated Description
+1. Improved CSS layout to be mobile-friendly 
+2. Added projects and homework that worked.
+3. added links to my resume, LinkedIn and GitHub
 
 ## Links
 1. [Homework Deployed Website link](https://liladobe.github.io/portfolio-guzman-hw/)
@@ -14,3 +12,4 @@ The sections will have titled images of my applications or placeholders leading 
 ## Screenshot
 
 <img src="assets/images/portfolio-site.png">
+

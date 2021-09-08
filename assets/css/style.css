@@ -109,6 +109,11 @@ article p {
     flex-wrap: wrap;
 }
 
+.title{
+    text-align: center;
+    color:black
+}
+
 .hero {
     height: 200px;
     max-width: 100%;
