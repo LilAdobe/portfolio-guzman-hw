@@ -73,6 +73,12 @@ section h2 {
     font-size: 40px;
 }
 
+section p {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 article {
     margin-bottom: 32px;
     padding: 50px;
@@ -86,7 +92,9 @@ article {
 
 article h2 {
 
-    vertical-align: middle;}
+vertical-align: middle;
+font-size: 40px;
+}
 
 article img {
 display: flex;
@@ -100,6 +108,7 @@ article p {
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+    font-size: 20px;
 
 }
 
@@ -137,6 +146,6 @@ footer ul {
 }
 
 .footer h2 {
-    font-size: 25px;
+    font-size: 40px;
 }
 
